@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Princess</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="navbox-cont">
+      <!--  name -pet name container -->
+
+      <div class="namebox-cont">
+        <div class="name">Name</div>
+        <div class="nickname">Nick-name</div>
+      </div>
+
+      <!-- Add/ remove COntainer -->
+
+      <div class="addbtn-cont">
+        <div class="add-btn">
+          <i class="fa-solid fa-plus"></i>
+        </div>
+        <div class="remove-btn">
+          <i class="fa-solid fa-trash"></i>
+        </div>
+      </div>
+
+      <!-- filter as per name container -->
+
+      <div class="filtername-cont">
+        <div class="filter">
+          <select>
+            <option>Select Your Name</option>
+            <option class="tata">Tata</option>
+            <option class="avva">Avva</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <!-- form container -->
+
+    <div class="main-cont">
+      <!-- <div class="name-cont">
+        <div class="task-name">Sharda</div>
+        <div class="name-id">ID</div>
+        <div class="taskarea">
+          <br>
+          <label>Names:</label>
+          <ol>
+            <li class="n1">Avisha</li>
+            <li class="n2">Aashrita</li>
+            <li class="n3">nihara</li>
+            <li class="n4">rehanshi</li>
+            <li class="n5">reeva</li>
+          </ol>
+        </div>
+        <div class="name-lock">
+          <i class="fa-solid fa-lock"></i>
+        </div>
+      </div> -->
+
+      <!-- nick-name-container -->
+      <!-- <div class="nickname-cont">
+        <div class="task-nickname">Sharda</div>
+        <div class="nickname-id">ID</div>
+        <div class="taskarea-nn">
+          <br />
+          <label>Nicknames:</label>
+          <ol>
+            <li class="nn1">kuhu</li>
+            <li class="nn2">kissi</li>
+          </ol>
+        </div>
+        <div class="nickname-lock">
+          <i class="fa-solid fa-lock"></i>
+        </div>
+      </div> -->
+    </div>
+
+     <!-- modal Container -->
+     <div class="modal-popup">
+        
+            <div><button class="selectname">Name</button></div>
+            <div><button class="selectnickname">NickName</button></div>
+        
+
+     </div>
+    <div class="modal-cont">
+     
+
+      <div class="modalname-cont">
+        <!-- <div class="modal-name">Name</div> -->
+        <!-- <div class="nickname-id">ID</div> -->
+        <div>
+          <form>
+            <label>Name:</label>
+            <input class="modaltask-name" type="text" placeholder="Enter your name" /><br />
+            <label>Suggest Names:</label>
+            <div class="modal-taskarea">
+            <ol>
+              <li><input type="text" class="rname name1" /></li>
+              <li><input type="text" class="rname name2" /></li>
+              <li><input type="text" class="rname name3"/></li>
+              <li><input type="text" class="rname name4" /></li>
+              <li><input type="text" class="rname name5"/></li>
+              <!-- <button class="name-submit">Submit</button> -->
+            </ol>
+            </div>
+          </form>
+        </div>
+        <!-- <div class="name-lock">
+                <i class="fa-solid fa-lock"></i>
+            </div> -->
+      </div>
+
+      <div class="modalnickname-cont">
+        <!-- <div class="modal-nickname">Nickname</div> -->
+        <!-- <div class="nickname-id">ID</div> -->
+        <div>
+          <form>
+            <label>Name:</label>
+            <input class="modaltask-nickname" type="text" placeholder="Enter your name" /><br /><br />
+            <label>Suggest Nicknames:</label>
+            <ol>
+              <li><input type="text nn1" /></li>
+              <li><input type="text nn2" /></li>
+              <!-- <li><input type="text nn3"/></li> -->
+              <button class="nickname-submit">Submit</button>
+            </ol>
+          </form>
+        </div>
+        <!-- <div class="name-lock">
+                <i class="fa-solid fa-lock"></i>
+            </div> -->
+      </div>
+    </div>
+  </body>
+
+  <script src="script.js"></script>
+  <script src="https://kit.fontawesome.com/589957875e.js" crossorigin="anonymous"></script>
+</html>

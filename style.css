@@ -1,0 +1,222 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    padding:0;
+}
+
+.navbox-cont{
+    height:5rem;
+    background-color:#4b4b4b;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:10rem;
+}
+
+.namebox-cont{
+    height:3.5rem;
+    width:22rem;
+    background-color:#3d3d3d;
+    display:flex;
+    /* align-items:center; */
+    /* justify-content: center; */
+}
+
+.namebox-cont>*{
+    /* height:3rem; */
+    display:flex;
+    /* width:10; */
+    
+    align-items: center;
+    justify-content:center;
+    /* font-size:2 rem; */
+    color:white;
+    cursor:pointer;
+}
+.name{
+    width:8rem;
+    font-size: 2.5rem;
+    margin-left: 4px;
+    /* background-color: #4BB543; */
+}
+.nickname{
+    width:14rem;
+    font-size: 2.5rem;
+    /* background-color: #4BB543; */
+}
+.addbtn-cont{
+    height:3.5rem;
+    width:10rem;
+    background-color:#3d3d3d;
+    display:flex;
+    /* align-items:center;
+    justify-content: space-evenly; */
+}
+.addbtn-cont>*{
+    /* height:3rem; */
+    display:flex;
+    width:50%;
+    align-items: center;
+    justify-content: center;
+    font-size:2rem;
+    color:white;
+    cursor:pointer;
+}
+
+.add-btn:hover{
+    font-size: 3rem;
+    background-color: #4BB543;
+}
+
+.remove-btn:hover{
+    font-size:3rem;
+    background-color: #4BB543;
+}
+
+.filtername-cont{
+    /* height:3.5rem;
+    width:10rem;
+    background-color:#3d3d3d; */
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    font-size:2.5rem;
+}
+.filter{
+    font-size: 3rem;
+}
+
+.main-cont{
+    display:flex;
+    gap:2rem;
+    padding:2rem;
+    justify-content: center;
+}
+
+.name-cont{
+    height:18rem;
+    width:12rem;
+    background-color: coral;
+}
+
+.task-name{
+    height:3rem;
+    padding:2px;
+    font-size: 2.5rem;
+}
+.name-id{
+    height:1.5rem;
+    background-color: yellow;
+    padding:2px;
+}
+
+.taskarea{
+    padding:2px;
+    font-size: large;
+}
+
+.name-lock{
+    display: flex;
+    justify-content: flex-end;
+    /* margin-top: 0.4rem; */
+    margin-right: 1.25rem;
+    font-size:1.5rem;
+}
+
+.nickname-cont{
+    height:18rem;
+    width:12rem;
+    background-color: coral;
+}
+.task-nickname{
+    height:3rem;
+    padding:2px;
+    font-size: 2.5rem;
+}
+.nickname-id{
+    height:1.5rem;
+    background-color: yellow;
+    padding:2px;
+}
+
+.taskarea-nn{
+    padding:2px;
+    font-size: large;
+}
+
+.nickname-lock{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 3.5rem;
+    margin-right: 1.25rem;
+    font-size:1.5rem;
+}
+.modal-popup{
+    height:2rem;
+    width:15rem;
+    display:none;
+    gap:2 rem;
+    /* background-color: #dfe4ea; */
+    /* font-size: 3rem; */
+    position: absolute;
+    top:20%;
+    left:50%;
+}
+.modal-cont{
+    display:flex;
+    justify-content: center;
+    gap:2rem;
+    position:absolute;
+    top:30%;
+    left:42%;
+}
+.modal-popup>*{
+    /* display:flex; */
+    align-items: center;
+    justify-content: center;
+    font-size:1.25rem;
+    margin:5px;
+}
+
+.modalname-cont{
+    height:55vh;
+    width:20vw;
+    display:none;
+    /* position:absolute; */
+    background-color: #dfe4ea;
+    font-size:2rem;
+    /* top:30%;
+    left:30%; */
+    resize:none;
+    border:none;
+    outline:none;
+}
+.name-submit{
+    display:flex;
+    justify-content: center;
+    font-size:1.5rem;
+    margin-top:1rem;
+    margin-left:2rem;
+}
+.modalnickname-cont{
+    height:55vh;
+    width:20vw;
+    display:none;
+    /* position:absolute; */
+    background-color: #dfe4ea;
+    font-size:2rem;
+    /* top:30%;
+    left:30%; */
+    resize:none;
+    border:none;
+    outline:none;
+}
+.nickname-submit{
+    display:flex;
+    justify-content: center;
+    font-size:1.5rem;
+    margin-top:1rem;
+    margin-left:2rem;
+}
